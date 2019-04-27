@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<select onchange="$('#imageToSwap').attr('src', this.options[this.selectedIndex].value);">
+    <option value="drug.png" selected>Drug</option>
+    <option value="baby.png">Baby</option>
+    <option value="pain.png">Pain</option>
+</select>
+  
+<br><br>
+
+<img id="imageToSwap" class="profile" src="http://cdns2.freepik.com/free-photo/facebook-logo_318-49940.jpg">
+</body>
+</html>
